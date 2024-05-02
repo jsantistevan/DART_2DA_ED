@@ -20,7 +20,7 @@ Las instrucciones de las partes IV y V las tendrás que llevar a cabo siempre qu
 
 * Establece un 'remote', siendo este el repositorio original:
 
-       git remote add upstream https://github.com/UnirCs/DWFS-PER8408-2324
+       git remote add upstream https://github.com/RicharC293/DART_2DA_ED.git
 
 ### Parte III: Mantener el repositorio local actualizado
 * Busca cualquier cambio en el remote (en el repositorio original):
@@ -29,11 +29,11 @@ Las instrucciones de las partes IV y V las tendrás que llevar a cabo siempre qu
 
 * Sitúate en la rama master de tu fork:
 
-       git checkout master
+       git checkout main
 
 * Fusiona los cambios del 'remote' (repositorio original) en tu rama master (repositorio local):
 
-         git merge upstream/master
+         git merge upstream/main
 
 ### Parte IV: Modificar el contenido del repositorio
 En este punto, tienes el repositorio local actualizado. Haz las adiciones necesarias en el repositorio, de acuerdo con el ejercicio específico. Recuerda que debes entregar los ejercicios dentro de la carpeta del tema correspondiente, y además crear una carpeta con tu nombre, donde pondrás los archivos de tus ejercicios.
@@ -49,3 +49,7 @@ En este punto, tienes el repositorio local actualizado. Haz las adiciones necesa
 
 
 README model taked from https://github.com/UnirCs/DWFS-PER8408-2324
+
+### Para crear un ejercicio
+* En cada tema 1.<Tema> existe una carpeta llamada *ejercicios* dentro de ella se ecuentra el archivo *EJERCICIO.md* que contendrá el ejercicio a realizar. 
+* Crear una carpeta que tenga la siguiente estructura *nombre_apellido* sin caracteres especiales y dentro de ella colocar los ejercicios que se esté solicitando, adicionalmente se recomienda seguier la clase en un archivo independiente dentro de esta carpeta para que no tengas inconvenientes al momento de subir tus cambios.
